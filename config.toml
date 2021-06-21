@@ -1,0 +1,187 @@
+# For a description of these parameters, please visit the theme wiki.
+# https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
+# baseurl                 = "https://example.com/"
+baseurl                 = "/"
+DefaultContentLanguage  = "en"
+title                   = "MaTTeo's Blog"
+theme                   = "hugo-future-imperfect-slim"
+paginate                = 3
+disqusShortname         = ""
+googleAnalytics         = ""
+pluralizeListTitles     = false
+disableLanguages        = []
+relativeURLS            = true
+
+[markup.goldmark.renderer]
+  unsafe                = true
+
+[outputs]
+  home                  = ["html", "json", "rss"]
+
+[params]
+  enableCDN             = false
+  cssFiles              = ["default"]
+  jsFiles               = ["default"]
+  highlightjs           = true
+  highlightjsTheme      = ""
+  highlightjsLang       = []
+  viewMorePostsLink     = "/blog/"
+  readingTime           = true
+  imageStretch          = ""
+  removeBlur            = false
+  socialShare           = ["twitter", "facebook", "reddit", "linkedin", "pinterest", "email"]
+  hideEmptyStats        = false
+
+  [params.meta]
+    description         = "Web3 Dlog for all things tech, crypto and tech"
+    author              = "MaTTeo DeCaPa"
+    favicon             = false
+    svg                 = true
+    faviconVersion      = "1"
+    msColor             = "#ffffff"
+    iOSColor            = "#ffffff"
+
+  [params.header]
+    navbarTitle         = "MaTTeo's Dlog"
+    dynamicTitles       = true
+    searchMenu          = true
+    shareMenu           = true
+    languageMenu        = false
+
+  [params.intro]
+    header                = "MaTTeo's Dlog"
+    paragraph             = "A Web3 Blog for the new internet"
+    rssIntro              = true
+    socialIntro           = true
+    hideWhenSingleColumn  = false
+    alwaysOnHomepage      = false
+
+    [params.intro.pic]
+      src                 = "img/main/avatar-oval.png"
+      shape               = "circle"
+      width               = ""
+      alt                 = "MaTTeo"
+
+  [params.sidebar]
+    about               = "This site is committed to Web and Decentralized Computing"
+    postAmount          = 5
+    categories          = true
+    categoriesByCount   = true
+
+  [params.footer]
+    rssFooter           = true
+    socialFooter        = true
+
+  [params.utterances]
+    enabled             = false
+    repo                = ""
+    issueTerm           = "pathname"
+    issueNumber         = ""
+    label               = "" 
+    theme               = "github-light"
+
+  [params.staticman]
+    enabled             = true
+    api                 = ""  # No Trailing Slash
+    gitProvider         = ""
+    username            = ""
+    repo                = ""
+    branch              = ""
+
+    [params.staticman.recaptcha]
+      siteKey           = ""
+      encryptedKey      = ""
+
+[menu]
+
+  [[menu.main]]
+    name              = "Home"
+    identifier        = "home"
+    url               = "/"
+    pre               = "<i class='fa fa-home'></i>"
+    weight            = 1
+
+  [[menu.main]]
+    name              = "About"
+    identifier        = "about"
+    url               = "/about/"
+    pre               = "<i class='far fa-id-card'></i>"
+    weight            = 2
+
+  [[menu.main]]
+    name              = "Blog"
+    identifier        = "blog"
+    url               = "/blog/"
+    pre               = "<i class='far fa-newspaper'></i>"
+    weight            = 3
+
+  [[menu.main]]
+    name              = "Categories"
+    identifier        = "categories"
+    url               = "/categories/"
+    pre               = "<i class='fas fa-sitemap'></i>"
+    weight            = 5
+
+  [[menu.main]]
+    name              = "Contact"
+    identifier        = "contact"
+    url               = "/contact/"
+    pre               = "<i class='far fa-envelope'></i>"
+    weight            = 6
+
+[Languages]
+
+  [Languages.en]
+    LanguageCode        = "en"
+    LanguageName        = "English"
+    weight              = 1
+
+[social]
+  # Coding Communities
+  github                = "DeCaPa"
+  gitlab                = "DeCaPa"
+  stackoverflow         = "" # User Number
+  # bitbucket             = ""
+  # jsfiddle              = ""
+  # codepen               = ""
+  # Visual Art Communities
+  # deviantart            = ""
+  # flickr                = "example"
+  # behance               = ""
+  # dribbble              = ""
+  # Publishing Communities
+  # wordpress             = ""
+  # medium                = ""
+  # Professional/Business Oriented Communities
+  linkedin              = "decapua"
+  # vlinkedin_company      = "examplebusiness"
+  # foursquare            = ""
+  # xing                  = ""
+  # slideshare            = ""
+  # Social Networks
+  # facebook              = "example"
+  # googleplus            = ""
+  reddit                = "DeCaPaio"
+  # quora                 = ""
+  # youtube               = ""
+  # vimeo                 = ""
+  # whatsapp              = "" # WhatsApp Number
+    # WeChat and QQ need testing.
+    # wechat              = ""
+    # qq                  = "" # User ID Number
+  # instagram             = "example"
+  # tumblr                = ""
+  twitter               = "DeCaPa_io"
+  # strava                = ""
+  # skype                 = ""
+  # snapchat              = ""
+  pinterest             = "solutionprovide"
+  # telegram              = "example"
+  # vine                  = ""
+  # googlescholar         = ""
+  # orcid                 = ""
+  # researchgate          = "example"
+  # keybase               = "example"
+  # mastodon              = "example.com/@example"
+  # Email
+  # email                 = "matteo@decapa.io"
