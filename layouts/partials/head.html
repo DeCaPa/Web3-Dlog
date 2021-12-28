@@ -68,6 +68,7 @@
     {{- end -}}
   {{- end -}}
   {{- .Scratch.Set "Permalink" .Permalink -}}
+  {{- .Scratch.Set "mattRelPermalink" .RelPermalink -}}
   {{- .Scratch.Set "Title" .Title -}}
   {{- if .Params.Author -}}
     {{- .Scratch.Set "Author" .Params.Author -}}

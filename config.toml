@@ -2,8 +2,9 @@
 # https://github.com/pacollins/hugo-future-imperfect-slim/wiki/config.toml
 # baseurl                 = "https://example.com/"
 baseurl                 = "/"
+#baseurl                 = "https://decapa.io"
 DefaultContentLanguage  = "en"
-title                   = "MaTTeo's Blog"
+title                   = "MaTTeo's Dlog"
 theme                   = "hugo-future-imperfect-slim"
 paginate                = 3
 disqusShortname         = ""
@@ -62,6 +63,12 @@ relativeURLS            = true
       width               = ""
       alt                 = "MaTTeo"
 
+    [params.intro.brave]
+      src                 = "img/main/brave-verified.png"
+      shape               = "rectangle"
+      width               = ""
+      alt                 = "Brave Creator"
+
   [params.sidebar]
     about               = "This site is committed to Web and Decentralized Computing"
     postAmount          = 5
@@ -81,7 +88,7 @@ relativeURLS            = true
     theme               = "github-light"
 
   [params.staticman]
-    enabled             = true
+    enabled             = false
     api                 = ""  # No Trailing Slash
     gitProvider         = ""
     username            = ""
@@ -140,7 +147,7 @@ relativeURLS            = true
   # Coding Communities
   github                = "DeCaPa"
   gitlab                = "DeCaPa"
-  stackoverflow         = "" # User Number
+  # stackoverflow         = "" # User Number
   # bitbucket             = ""
   # jsfiddle              = ""
   # codepen               = ""
@@ -176,7 +183,7 @@ relativeURLS            = true
   # skype                 = ""
   # snapchat              = ""
   pinterest             = "solutionprovide"
-  # telegram              = "example"
+  telegram              = "DeCaPaio"
   # vine                  = ""
   # googlescholar         = ""
   # orcid                 = ""
