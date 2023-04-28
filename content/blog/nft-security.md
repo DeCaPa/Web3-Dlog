@@ -12,7 +12,7 @@ categories = ["web3"]
 
 # What is an NFT?
 
-NFT stands for NonFungible Token.  Think of it is a digital record which has been minted (created) on a blockchain.  Meaning, the file representing "something" that has been recorded on a blockchain. It is very unlikely the NFT itself is stored on a blockchain, rather the transaction details and a reference to the actual NFT location are stored on the blockchain.
+NFT stands for NonFungible Token.  Think of it as a digital record which has been minted (created) on a blockchain.  Meaning, the file represents "something" that has been recorded on a blockchain. It is very unlikely the NFT itself is stored on a blockchain, rather the transaction details and a reference to the actual NFT location are stored on the blockchain.
 
 There are many potential "gotcha's" associated with NFT's.  This post looks at the NFT landscape.  It is intended to help educate the NFT minter, the collector who purchases directly from the minter, and potential buyers later. Before you decide to swim with the sharks consider the following questions in 3 sections
 
